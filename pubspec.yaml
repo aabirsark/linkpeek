@@ -1,0 +1,27 @@
+name: linkpeek
+description: "LinkPeek is a Flutter package that allows you to retrieve information about a web link, including title, description, thumbnail, favicon, default color, etc. It also provides a convenient popup widget for displaying link previews."
+version: 1.0.0
+homepage: 
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  animate_do: ^3.3.3
+  flutter:
+    sdk: flutter
+  html: ^0.15.4
+  http: ^1.2.0
+  logger: ^2.0.2+1
+  palette_generator: ^0.3.3+3
+  webview_flutter: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - example/
